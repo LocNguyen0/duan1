@@ -1,0 +1,142 @@
+.path {
+    margin: 30px 0 50px 0;
+    display: inline-flex;
+    gap: 12px;
+    font-family: var(--font-title);
+    color: var(--text-color);
+}
+
+.heading h2 {
+    font-size: 30px;
+}
+
+.checkout-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 173px;
+    margin-top: 30px;
+}
+
+.form-group-ck {
+    margin-bottom: 20px;
+}
+
+.form-group-ck label {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 15px;
+    color: gray;
+}
+
+.form-group-ck input[type=text] {
+    display: block;
+    margin-bottom: 5px;
+    width: 470px;
+    padding: 10px;
+    border: none;
+    border: 1px solid gray;
+}
+
+.form-group-ck input[type=checkbox]:checked {
+    background-color: red;
+}
+
+.form-group-ck input[type=text]:focus {
+    background-color: white;
+    color: gray;
+}
+
+.form-group-ck span {
+    color: red;
+}
+.checkout-product{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.product-checkout {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    gap: 5px;
+    align-items: center;
+}
+.price{
+    display: inline-flex;
+    align-items: center;
+}
+
+.product-info span {
+    font-weight: var(--font-regular);
+    align-items: center;
+}
+
+.cart-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.checkout-cart {
+    margin-bottom: 50px;
+}
+
+.cart-purchase {
+    margin: 25px 0;
+}
+
+.cart-purchase label {
+    margin: 0 20px;
+}
+
+.coupon {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.coupon input[type=text] {
+    width: 150px;
+    height: 10px;
+    padding: 15px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+
+.submit-btn{
+    font-family: var(--font-title);
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+}
+.submit-btn:hover{
+    background-color: var(--primary-color-hover);
+    color: var(--text-color);
+}
+.success-page{
+    width: 600px;
+    height: 230px;
+    margin: auto;
+}
+.success-box{
+    margin: 40px 0;
+}
+.success-box h1{
+    font-family: var(--font-heading);
+    font-size: 60px;
+    font-weight: var(--font-bold);
+    color: var(--primary-color);
+}
+.success-block{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: var(--font-bold);
+}
+.success-block a{
+    color: var(--primary-color);
+}
